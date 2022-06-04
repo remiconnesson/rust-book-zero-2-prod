@@ -25,3 +25,8 @@ I'm gonna check how to set it up.
 2. https://github.com/rui314/mold#how-to-use (sub-section: If You Are Using Rust);
 Trying out.
 ... Well, that works :o 
+### Reducing "perceived" compilation time with `cargo-watch`
+Looks like an equivalent to nodemon.
+usage: `cargo-watch -x check`
+usage avec tests: `cargo-watch -x check -x tests -x run` chain compile,puis tests, puis run.
+... Yes, just tried it out, that's sweeet!
