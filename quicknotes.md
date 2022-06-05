@@ -30,3 +30,8 @@ Looks like an equivalent to nodemon.
 usage: `cargo-watch -x check`
 usage avec tests: `cargo-watch -x check -x tests -x run` chain compile,puis tests, puis run.
 ... Yes, just tried it out, that's sweeet!
+### Increasing code quality
+With `let g:rustfmt_autosave = 1` in my `.vimrc` I run the formatter on save which is cool.
+Right now, I'm looking for a way to run `clippy` linter before letting commits go through.
+... Ok never mind, I'll do it later.
+
